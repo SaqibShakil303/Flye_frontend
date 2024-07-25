@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flag{
+            width: 900px;
+            height: 600px;
+            border: 2px solid black;
+            background-color: rgb(115, 25, 25);
+            position: relative;
+           text-align: center;  
+        }
+      
+     .flag> div{
+        position:absolute;
+        top: 150px;
+        background-color: rgb(22, 22, 109);
+        width: 100%;
+        height: 50%;
+     }
+     div> div p{
+        font-size: 80px;
+        color: rgb(0, 0, 0);
+        width: 200px;
+        height:200px;
+        background-color: aliceblue;
+        border-radius: 50%;
+        position:absolute;
+        left:350px;
+     top:50px;
+     
+     } 
+     
+
+     /* the flag font */
+     .flag>p{
+            font-size: 80px;
+            color: white;
+            position: relative;
+          z-index: 1;
+          
+        }
+     p{
+        margin: 0%;
+     }
+
+    </style>
+</head>
+<body>
+    <div class="flag">
+        <p>The Flag</p>
+        <div>
+            <div>
+                <p>of Laos</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
